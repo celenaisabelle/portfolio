@@ -37,6 +37,16 @@ img {
 }
 
 /* NAVBAR */
+.navbar .nav-link {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.navbar .nav-link:hover {
+    color: var(--color-brand);   
+}    
+
 @media (min-width: 992px) {
     .navbar {
         min-height: 100vh;
@@ -44,5 +54,9 @@ img {
         background: linear-gradient(rgb(3, 63, 71, 0.9), rgb(3, 63, 71, 0.9)), url(../images/sidebar-img.jpg);
         background-size: cover;
         background-position: center;
+    }
+
+    .navbar-brand img {
+        border: 8px solid var(--color-brand);
     }
 }
