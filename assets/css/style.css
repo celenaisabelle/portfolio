@@ -143,6 +143,6 @@ img {
     transition: all 0.4s;
 }
 
-.link-custom:hover {
+.link-custom:hover::after {
     width: 100%;
 }
